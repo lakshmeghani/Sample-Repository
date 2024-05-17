@@ -32,6 +32,8 @@
 	--> Shows commmits done in the previous 2 days!
 17. git checkout -- FILENAME
 	--> Restores modified files which were previously staged.
+18. git checkout -f
+	--> Restores all modified files to matched previous commit!
 
 
 #Go to webiste 'git-scm.com/docs/git-log' for prettier format codes and outputs"
