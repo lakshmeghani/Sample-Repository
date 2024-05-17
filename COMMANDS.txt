@@ -1,0 +1,37 @@
+1. git clone 
+	--> For cloning repository.
+2. git status
+	--> For checking chages made in workplace area.
+3. git add FILENAME
+	--> For staging FILENAME (Preparing for commit)
+4. git commit -m "MESSAGE"
+	--> Commiting files from staged area
+5. git log
+	--> Viewing all commits
+6. git commit -a -m "MESSAGE"
+	--> Skipping staging precess and directly commitnig tracked files.
+7. git init
+	--> Initialising a repository which git will track.
+8. git dif
+	--> Viewing the changes made between current workplace and staged area.
+9. git diff --cached
+	--> Viewing the changed made beteeen previously staged area and working directory.
+10. git rm FILENAME
+	--> Remove file + staging process.
+11. git mv FILENAME NEW_FILENAME
+	--> Renaming files + staging process.
+12. git log -p
+	--> Showing commits + changes made in commits (git log + git diff)
+13. git log -p -n (n --> any number)
+	--> Viewing the last 'n' number of commits and their changes.
+14. git log --stat
+	--> Summarizing the changes of all the commits made!
+15. git log --pretty=oneline
+	--> Summarizing all the commits in one line! (Very useful)
+16. git log --since=n.days (n --> any number)
+	--> Shows commmits done in the previous 2 days!
+17. git checkout -- FILENAME
+	--> Restores modified files which were previously staged.
+
+
+#Go to webiste 'git-scm.com/docs/git-log' for prettier format codes and outputs"
