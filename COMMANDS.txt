@@ -34,6 +34,8 @@
 	--> Restores modified files which were previously staged.
 18. git checkout -f
 	--> Restores all modified files to matched previous commit!
+19. got checkout -b BRANCHNAME
+	--> Creates a new branch to work on!
 
 
 #Go to webiste 'git-scm.com/docs/git-log' for prettier format codes and outputs"
